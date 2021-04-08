@@ -7,7 +7,7 @@
 	<title>{{ .Title }}</title>
 	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-	<link rel="author" href="/humans.txt" />
+	<link rel="author" href="{{ "humans.txt" | relURL }}" />
 	<link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 	<link href="{{ "css/aos.css" | relURL }}" rel="stylesheet">
 	<script>
