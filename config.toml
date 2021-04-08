@@ -1,0 +1,35 @@
+baseURL = "https://espoir-tramelan.ch/"
+languageCode = "fr-ch"
+title = "l'Espoir Tramelan - mouvement bénévole qui organise des camps pour les jeunes (enfants et adolescents) en Suisse-Romande"
+description = "L'Espoir Tramelan est un mouvement bénévole qui organise des camps. Le but est de permettre à des enfants et adolescents de vivre une semaine trépidante avec d'autres jeunes de leur âge. L'accent est mis sur le vécu. Que cela soit par le sport, l'expression, le bricolage, les partages, nous cherchons à communiquer une vie saine aux campeurs."
+theme = "espoir"
+
+[markup]
+  [markup.goldmark]
+	[markup.goldmark.renderer]
+	  unsafe = true
+
+[menu]
+  [[menu.main]]
+		identifier = "accueil"
+		name = "Accueil"
+		url = "/"
+		weight = 1 
+
+  [[menu.main]]
+		identifier = "l-espoir-tramelan"
+		name = "l'Espoir Tramelan"
+		url = "/l-espoir-tramelan/"
+		weight = 2 
+
+  [[menu.main]]
+		identifier = "camps"
+		name = "Les camps"
+		url = "/camps/"
+		weight = 3
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Nous contacter"
+    url = "/contact/"
+    weight = 4    
