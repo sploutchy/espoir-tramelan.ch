@@ -1,15 +1,15 @@
 +++
-age = "de 13 à 17 ans"
+age = "de 8 à 14 ans"
 banner = ""
 date = 2021-04-08T21:47:19Z
-description = "Scénariste, cameraman ou acteur/actrice, tous les rôles sont possibles dans la réalisation d'un film ! Pas besoin de connaître tous les boutons, mais une sérieuse envie de s’amuser est un atout ! Viens vivre une semaine atypique rythmée de tournages, d’activités extérieures et autres animations déjantées avec des jeunes de toute la Suisse Romande. Tout est prêt pour que cette folle aventure se passe à merveille : un chalet agréable, un paysage de tournage idéal, des cuisiniers adorables et une équipe accompagnante composée de moniteurs mordus de la pellicule prêts à tout pour partager leur passion. Tu repartiras avec le film que tu auras réalisé ! De quoi passer des vacances d'été inoubliables ponctuées de nouvelles rencontres et d’amitiés formidables."
+description = "Rejoins une équipe de campeurs qui s'amuse à des jeux inédits et qui se mesure à la chasse à numéros. Viens bricoler, chanter, partager des moments de recueillements par petits groupes, rire et faire le plein de souvenirs inoubliables. Si tu souhaites te faire une petite idée sur les activités de notre camp, va cliquer du côté de www.boldair.ch"
 draft = true
-enddate = "17 juillet 2021"
+enddate = "11 juillet 2021"
 location = "au Chalet des Bises à Tramelan"
-price = "270.- CHF"
-responsable = "Anaëlle Kaufmann et Sophie Lombard"
-startdate = "10 juillet 2021"
-teaser = "Viens participer à la plus incroyable des productions hollywoodiennes. silence ça tourne... action!"
+price = "230.- CHF"
+responsable = "Pascal Geiser"
+startdate = "3 juillet 2021"
+teaser = "30 ans d'existence et toujours aussi fou. Rejoins-nous pour une semaine de folie."
 title = "Bol d'Air 2021"
 
 +++
