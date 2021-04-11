@@ -3,6 +3,9 @@
   --blue: hsla(211, 82%, 19%, 1);
   --crayola: hsl(197, 100%, 72.9%);
   --green: hsla(119, 92%, 15%, 1);
+  --green2: hsla(119, 92%, 17%, 1);
+  --green3: hsla(119, 92%, 19%, 1);
+  --green4: hsla(119, 100%, 20%, 1);
   --apple: hsla(116, 96%, 31%, 1);
   --white: hsla(0, 0%, 100%, 1);
 }
@@ -277,13 +280,107 @@ blockquote::before {
 }
 
 /* Footer */
-/* Ideas https://codepen.io/arsenykonohov/pen/BoBeQj */
+/* Sources and ideas for trees https://codepen.io/arsenykonohov/pen/BoBeQj and clouds https://codepen.io/claudineong/pen/qBbeLdP */
 footer{
   margin: 2em 0 0;
   padding: 2em 0;
   background-color: var(--green);
   border-bottom: 4vh solid var(--apple);
 }
+
+/* FOREST */
+.forest{
+  position: relative;
+}
+.tree{ 
+  position: absolute;
+  transform: scale(0.8);
+  transform-origin: bottom;
+  bottom: 3vh;
+  right: 13vh;
+  width: 20vh;
+  height: 28vh;
+  z-index:10;
+  filter: sepia(30%);
+  overflow: hidden;
+}
+.tree:first-child{
+  transform: rotate(1.2deg);
+  bottom: 4vh;
+  right: 8vh;
+  z-index:8;
+  filter: sepia(50%);
+}
+.tree:last-child{
+  z-index:4;
+  transform: rotate(-1.2deg);
+  bottom: 5vh;
+  right: 16vh;
+  filter: sepia(70%);
+}
+.tree *, .tree *:after{
+  position: absolute;
+  border-style: solid;
+}
+.branch:after, .trunk:after{
+  right: 0;
+  bottom: 0;
+  content: "";
+}
+.trunk{
+  bottom: 0;
+  right: 8vh;
+  border-width: 28vh 0 0 2vh;
+  border-color: transparent transparent transparent var(--green2);
+}
+.trunk:after{
+  right: 2vh;
+  border-width: 0vh 0vh 28vh 2vh;
+  border-color: transparent transparent var(--green3) transparent;
+}
+.branch{
+  border-color: transparent transparent transparent var(--green4);
+}
+.branch:after{
+  border-color: transparent transparent var(--green) transparent;
+}
+.branch_1{
+  bottom: 5vh;
+  right: 0vh;
+  border-width: 12vh 0 0 10vh;
+}
+.branch_1:after{
+  right: 10vh;
+  border-width: 0vh 0vh 12vh 10vh;
+}
+.branch_2{
+  bottom: 12vh;
+  right: 2vh;
+  border-width: 12vh 0 0 8vh;
+}
+.branch_2:after{
+  right: 8vh;
+  border-width: 0vh 0vh 12vh 8vh;
+}
+.branch_3{
+  bottom: 18vh;
+  right: 4vh;
+  border-width: 8vh 0 0 6vh;
+}
+.branch_3:after{
+  right: 6vh;
+  border-width: 0vh 0vh 8vh 6vh;
+}
+.branch_4{
+  bottom: 22vh;
+  right: 6vh;
+  border-width: 6vh 0 0 4vh;
+}
+.branch_4:after{
+  right: 4vh;
+  border-width: 0vh 0vh 6vh 4vh;
+}
+
 
 /* Clouds */
 
