@@ -1,15 +1,14 @@
 +++
-age = "de 13 à 17 ans"
+age = "de 8 à 15 ans"
 banner = ""
 date = 2021-04-08T21:47:19Z
-description = "Scénariste, cameraman ou acteur/actrice, tous les rôles sont possibles dans la réalisation d'un film ! Pas besoin de connaître tous les boutons, mais une sérieuse envie de s’amuser est un atout ! Viens vivre une semaine atypique rythmée de tournages, d’activités extérieures et autres animations déjantées avec des jeunes de toute la Suisse Romande. Tout est prêt pour que cette folle aventure se passe à merveille : un chalet agréable, un paysage de tournage idéal, des cuisiniers adorables et une équipe accompagnante composée de moniteurs mordus de la pellicule prêts à tout pour partager leur passion. Tu repartiras avec le film que tu auras réalisé ! De quoi passer des vacances d'été inoubliables ponctuées de nouvelles rencontres et d’amitiés formidables."
-draft = true
-enddate = "17 juillet 2021"
+description = "Automne-détente, c'est un camp sur les hauteurs de Tramelan, au coeur des pâturages et des sapins. Les journées sont rythmées par des moments de jeux (le plus possible en plein air), de bricolages et de partages autour de la Bible. Rires, amitiés, découvertes et, bien sûr, traditionnelles chasses à numéros, seront au rendez-vous de ce camp!"
+enddate = "23 octobre 2021"
 location = "au Chalet des Bises à Tramelan"
-price = "270.- CHF"
-responsable = "Anaëlle Kaufmann et Sophie Lombard"
-startdate = "10 juillet 2021"
-teaser = "Viens participer à la plus incroyable des productions hollywoodiennes. silence ça tourne... action!"
+price = "230.- CHF"
+responsable = "Aline Gagnebin"
+startdate = "16 octobre 2021"
+teaser = "Un lieu unique, une ambiance unique, des activités uniques. Bref : un camp unique !"
 title = "Automne Détente 2021"
 
 +++
