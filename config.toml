@@ -10,11 +10,6 @@ theme = "espoir"
 	  unsafe = true
 
 [menu]
-  [[menu.main]]
-		identifier = "accueil"
-		name = "Accueil"
-		url = "/"
-		weight = 1 
 
   [[menu.main]]
 		identifier = "l-espoir-tramelan"
