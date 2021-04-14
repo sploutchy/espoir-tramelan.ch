@@ -8,15 +8,14 @@
   --green4: hsla(119, 100%, 20%, 1);
   --apple: hsla(116, 96%, 31%, 1);
   --white: hsla(0, 0%, 100%, 1);
+  --wood: hsla(23, 86%, 17%, 1);
+  --inwood: hsl(23, 100%, 18%);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --blue: hsla(211, 82%, 8%, 1);
     --crayola: hsla(197, 69%, 50%, 1);
-    --green: hsla(119, 92%, 15%, 1);
-    --apple: hsla(116, 96%, 31%, 1);
-    --white: hsla(0, 0%, 95%, 1);
     }
 }
 
@@ -72,6 +71,15 @@ body{
   font-size: clamp(1em,calc(1em + 1vw),24px);
   margin: 0;
   padding:0;
+  
+  background-color:var(--blue);
+  background-image: radial-gradient(rgba(255,255,255,.6), rgba(255,255,255,.1) 2px, transparent 40px),
+  radial-gradient(rgba(255,255,255,.6), rgba(255,255,255,.15) 1px, transparent 30px),
+  radial-gradient(rgba(255,255,255,.6), rgba(255,255,255,.1) 1px, transparent 40px), 
+  radial-gradient(rgba(255,255,255,.6), rgba(255,255,255,.1) 1px, transparent 2px);
+  background-size: 800px 800px, 600px 600px, 400px 400px, 155px 155px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+  
 }
 
 main{
@@ -291,6 +299,7 @@ footer{
 /* FOREST */
 .forest{
   position: relative;
+  height: 2vh;
 }
 .tree{ 
   position: absolute;
@@ -451,6 +460,213 @@ footer{
         transform: translate3d(150vmax, 0, 0);
     }
 }
+
+
+/* campfire source https://codepen.io/Rosefae/pen/oQBRXe */
+ .campfire {
+  width: 12vh;
+  margin-bottom: 1.5vh;
+  margin-left: auto;
+  margin-right: 8vw;
+  position: relative;
+  z-index: 88;
+}
+
+.campfire * {
+  position: absolute;
+}
+
+.logs {
+  bottom: 0;
+  left: 50%;
+  transform: translatex(-50%);
+  width: 1.5vh;
+}
+.logs .two {
+  width: 3vh;
+  bottom: 0;
+  left: 50%;
+  transform: translatex(-50%);
+}
+.logs .two .log {
+  position: relative;
+  width: 100%;
+  height: 2.25vh;
+  background: var(--wood);
+  margin-bottom: -1.2vh;
+  clip-path: polygon(30% 0%, 70% 0%, 100% 100%, 0% 100%);
+}
+.logs .two::before {
+  content: "";
+  display: block;
+  position: relative;
+  width: 1.2vh;
+  height: 1.08vh;
+  background: var(--wood);
+  margin: 0 auto;
+  border-radius: 50%;
+  transform: translatey(60%);
+}
+.logs .two::after {
+  content: "";
+  display: block;
+  position: relative;
+  width: 3vh;
+  height: 2.4vh;
+  border-radius: 50%;
+  background: var(--inwood);
+  box-sizing: border-box;
+  border: 0.35vh var(--wood) solid;
+}
+.logs .one, .logs .three {
+  width: 2.4vh;
+  margin-left: -2.4vh;
+  bottom: -1.65vh;
+}
+.logs .one .log, .logs .three .log {
+  position: relative;
+  width: 100%;
+  height: 2.4vh;
+  background: var(--wood);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 41%, 11% 100%);
+  transform-origin: 0 0;
+  transform: skewy(-10deg);
+}
+.logs .one::before, .logs .three::before {
+  content: "";
+  display: block;
+  position: relative;
+  width: 0.72vh;
+  height: 1.08vh;
+  background: var(--wood);
+  margin-right: 0;
+  margin-left: auto;
+  border-radius: 50%;
+  transform: translate(45%, 57%);
+}
+.logs .one::after, .logs .three::after {
+  content: "";
+  display: block;
+  position: relative;
+  width: 1.8vh;
+  height: 2.4vh;
+  border-radius: 50%;
+  background: var(--inwood);
+  transform: translate(-50%, -100%);
+  box-sizing: border-box;
+  border: 0.35vh var(--wood) solid;
+}
+.logs .three {
+  transform: scalex(-1);
+  margin-left: 1.5vh;
+}
+
+.fire {
+  left: 50%;
+  bottom: 3.675vh;
+}
+
+.flames > * {
+  bottom: 0;
+  right: 0;
+}
+.flames > * .flame {
+  bottom: 0;
+  right: 0;
+  background: rgba(255, 119, 15, 0.6);
+  width: 5.25vh;
+  height: 7.2vh;
+  border-radius: 0 6vh;
+  transform-origin: 100% 100%;
+}
+.flames .two {
+  transform: rotate(30deg);
+}
+.flames .three {
+  transform: scalex(-1);
+}
+.flames.inner > * .flame {
+  background: rgba(255, 218, 119, 0.4);
+  width: 3vh;
+  height: 3.6vh;
+}
+
+.glow {
+  background: radial-gradient(closest-side, #ff770f, rgba(255, 119, 15, 0));
+  width: 100%;
+  height: 100%;
+  top: -1.2vh;
+}
+
+.one .flame, .inner .one .flame {
+  animation-delay: -0.2s;
+}
+
+.two .flame, .inner .one .flame {
+  animation-delay: -0.5s;
+}
+
+.three .flame, .inner .one .flame {
+  animation-delay: -0.9s;
+}
+
+.flame {
+  animation: wave 1s ease-in-out infinite alternate, flicker 0.3s ease-in-out infinite alternate, height 0.5s ease infinite alternate;
+}
+
+.inner .flame {
+  animation: wave 0.8s ease-in-out infinite alternate, flicker 0.2s ease-in-out infinite alternate, heightsmall 0.3s ease infinite alternate;
+}
+
+.glow {
+  animation: glow 0.8s ease-in-out infinite alternate, flicker 0.3s ease-in-out infinite alternate;
+}
+
+@keyframes wave {
+  from {
+  transform: rotate(-5deg);
+  }
+  to {
+  transform: rotate(5deg);
+  }
+}
+@keyframes flicker {
+  from {
+  opacity: 0.8;
+  }
+  to {
+  opacity: 1;
+  }
+}
+@keyframes height {
+  from {
+  height: 7.2vh;
+  width: 5.25vh;
+  }
+  to {
+  height: 6.6vh;
+  width: 4.5vh;
+  }
+}
+@keyframes heightsmall {
+  from {
+  height: 3.6vh;
+  width: 3.0vh;
+  }
+  to {
+  height: 3.45vh;
+  width: 2.4vh;
+  }
+}
+@keyframes glow {
+  from {
+  transform: scale(1.1);
+  }
+  to {
+  transform: scale(1);
+  }
+}
+
 
 /* Utilities */
 .hide-mobile{
