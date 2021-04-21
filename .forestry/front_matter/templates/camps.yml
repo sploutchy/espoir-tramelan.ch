@@ -1,0 +1,37 @@
+---
+label: camps
+hide_body: true
+fields:
+- type: text
+  name: age
+  label: age
+- type: text
+  name: banner
+  label: banner
+- type: datetime
+  name: date
+  label: date
+- type: textarea
+  name: description
+  label: description
+- type: text
+  name: enddate
+  label: enddate
+- type: text
+  name: location
+  label: location
+- type: text
+  name: price
+  label: price
+- type: text
+  name: responsable
+  label: responsable
+- type: text
+  name: startdate
+  label: startdate
+- type: text
+  name: teaser
+  label: teaser
+- type: text
+  name: title
+  label: title
