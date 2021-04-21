@@ -1,0 +1,39 @@
+{{ define "main" }}
+	
+	<article class="faq">
+		<div class="faq-intro">
+		<h1>
+			{{ .Title }}	
+		</h1>
+
+		{{ if .Params.shortanswer }}
+		  <p class="lead">{{ markdownify .Params.shortanswer }}</p>
+		{{ end }}
+		
+		
+		{{ .Content }}
+		
+		</div>
+		
+		
+
+		
+	</article>
+	
+	
+	
+	<nav class="pagination">	
+		{{ if .PrevInSection }}
+		<a href="{{.PrevInSection.Permalink}}">
+			⬅︎
+			{{.PrevInSection.Title}}
+		</a>
+		{{ end }}
+		{{ if .NextInSection }}
+		<a href="{{.NextInSection.Permalink}}">
+			{{.NextInSection.Title}}
+			⮕
+		</a>
+		{{ end }}
+	</nav>
+{{ end }}

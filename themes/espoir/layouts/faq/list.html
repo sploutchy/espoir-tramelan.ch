@@ -1,0 +1,25 @@
+{{ define "main" }}
+	{{ if .Content }}
+	<div>
+		{{ with .Content }}<div>{{ . }}</div>{{ end }}
+	</div>
+	{{ end }}
+	
+	{{ range .Data.Pages }}
+	<div class="listing-camps">
+		<article class="camp">				
+			<h2>
+				{{ .Title }}	
+			</h2>			
+			<p>
+				{{ .Params.shortanswer }}	
+			</p>		
+			<a href="{{.Permalink}}">
+				En savoir plus		
+			</a>		
+		</article>
+	</div>
+
+	{{ end }}
+	
+{{ end }}

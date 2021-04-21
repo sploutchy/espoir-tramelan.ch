@@ -22,9 +22,16 @@ theme = "espoir"
 		name = "Les camps"
 		url = "/camps/"
 		weight = 3
+		
+
+  [[menu.main]]
+		identifier = "faq"
+		name = "Vos questions"
+		url = "/faq/"
+		weight = 4		
 
   [[menu.main]]
     identifier = "contact"
     name = "Nous contacter"
     url = "/contact/"
-    weight = 4    
+    weight = 5  
