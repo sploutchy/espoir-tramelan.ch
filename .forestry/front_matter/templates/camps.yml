@@ -1,0 +1,37 @@
+---
+label: camps
+hide_body: false
+display_field: title
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: teaser
+  label: teaser
+- type: text
+  name: responsable
+  label: responsable
+- type: text
+  name: age
+  label: age
+- type: text
+  name: startdate
+  label: startdate
+- type: text
+  name: enddate
+  label: enddate
+- type: text
+  name: location
+  label: location
+- type: text
+  name: price
+  label: price
+- type: text
+  name: banner
+  label: banner
+- type: datetime
+  name: date
+  label: date de publication
+  hidden: true
+  default: now
