@@ -5,22 +5,25 @@
 	</div>
 	{{ end }}
 	
-	{{ range .Data.Pages }}
 	<div class="listing-camps">
-		<article class="camp">				
+	{{ range .Data.Pages }}
+		<article class="camp" data-aos="fade-up"
+		 data-aos-duration="500">				
+			{{$mainBanner := index (.Params.banner) 0 }}
+			<a href="{{.Permalink}}"><img src="/{{$mainBanner}}" alt="{{ .Title }}"/></a>
 			<h2>
 				{{ .Title }}	
 			</h2>			
 			{{ if .Params.teaser }}
-			  <p class="lead">{{ markdownify .Params.teaser }}</p>
+			  <p>{{ markdownify .Params.teaser }}</p>
 			{{ end }}	
-						
 			<a href="{{.Permalink}}">
-				En savoir plus		
+				{{ if .Params.ensavoirplus }}
+				  {{ .Params.ensavoirplus }}
+				{{ end }}
 			</a>		
 		</article>
-	</div>
-
 	{{ end }}
+	</div>
 	
 {{ end }}

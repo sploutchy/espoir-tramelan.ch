@@ -1,25 +1,25 @@
 {{ define "main" }}
-	{{ if .Content }}
-	<div>
-		{{ with .Content }}<div>{{ . }}</div>{{ end }}
-	</div>
-	{{ end }}
+
+{{ if .Content }}
+<div>
+	{{ with .Content }}<div>{{ . }}</div>{{ end }}
+</div>
+{{ end }}
 	
+	<div class="listing-faq">
 	{{ range .Data.Pages }}
-	<div class="listing-camps">
-		<article class="camp">				
+		<article class="faq" data-aos="fade-up"
+		 data-aos-duration="500">				
 			<h2>
+				<a href="{{.Permalink}}">
 				{{ .Title }}	
+				</a>
 			</h2>			
 			<p>
 				{{ .Params.shortanswer }}	
-			</p>		
-			<a href="{{.Permalink}}">
-				En savoir plus		
-			</a>		
+			</p>			
 		</article>
-	</div>
-
 	{{ end }}
+	</div>
 	
 {{ end }}

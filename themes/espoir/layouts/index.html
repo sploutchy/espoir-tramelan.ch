@@ -1,6 +1,36 @@
 {{ define "main" }}
 
+
+	<div class="heading">
+		<h1>{{.Title}}</h1>
+		<!-- <img src="/{{.Params.banner}}" alt="" class="hero-image"> -->		
+	</div>
+	
+	
 	{{.Content}}
+	
+	<section class="homepage-section">
+	<h2>Découvrez nos camps</h2>
+	  <div class="listing-camps">
+		{{ range where .Site.Pages "Section" "camps" }}
+			{{ if .Params.teaser }}
+			<article class="camp">				
+				<h3>
+					{{ .Title }}	
+				</h3>			
+				  <p>{{ markdownify .Params.teaser }}</p>
+				<a href="{{.Permalink}}">
+					{{ if .Params.ensavoirplus }}
+					  {{ .Params.ensavoirplus }}
+					{{ end }}
+				</a>		
+			</article>			
+			{{ end }}	
+		{{else}}
+			<p>Aucun camps à l'horizon</p>
+		{{ end }}
+	  </div>
+	</section>
 
 {{ end }}
 

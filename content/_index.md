@@ -1,4 +1,7 @@
-# Bienvenue sur le site de l'Espoir Tramelan
+---
+title : "Bienvenue sur le site de l'Espoir Tramelan"
+banner: "images/marche.jpg"
+---
 
 Tu aimes le grand air et la nature, tu aimes rire, chanter, jouer, bricoler ? Alors viens passer une semaine d'amitié dans l'un de nos camps ! Nous serons très heureux de pouvoir t'accueillir à l'un ou l'autre de ses rendez-vous !
 

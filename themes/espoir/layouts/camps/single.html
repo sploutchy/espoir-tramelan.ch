@@ -1,7 +1,6 @@
 {{ define "main" }}
 	
 	<article class="camps">
-		<div class="camp-intro">
 		<h1>
 			{{ .Title }}	
 		</h1>
@@ -10,45 +9,46 @@
 		  <p class="lead">{{ markdownify .Params.teaser }}</p>
 		{{ end }}
 		
+		<div class="banner">
+			{{ range $val := .Params.banner }}
+				<img src="/{{ $val }}" />
+			{{ end }}					
+		</div>
 		
-		{{ .Content }}
+		<div class="camp-content">
+			
+			<aside>	
+				
+					<dl>	
+					{{ if .Params.startdate }}
+					  <dt>Dates du camp</dt>
+					  <dd>Du {{ .Params.startdate }} au {{ if .Params.enddate }}{{ .Params.enddate }}{{ end }}</dd>
+					{{ end }}
+					{{ if .Params.location }}
+					  <dt>Lieu</dt>
+					  <dd>{{ .Params.location }}</dd>
+					{{ end }}
+					{{ if .Params.age }}
+					  <dt>Âge</dt>
+					  <dd>{{ .Params.age }}</dd>
+					{{ end }}	
+					{{ if .Params.price }}
+					  <dt>Prix</dt>
+					  <dd>{{ .Params.price }}</dd>
+					{{ end }}		
+					{{ if .Params.responsable }}
+					  <dt>Responsable</dt>
+					  <dd>{{ .Params.responsable }}</dd>
+					{{ end }}							
+					</dl>
+					
+				
+			</aside>
+			
+			{{ .Content }}
 		
 		</div>
 		
-		<aside>	
-			{{ if .Params.banner }}
-			<img src="{{ .Params.banner }}" alt="{{ .Title }}" />
-			{{ end }}			
-			
-				<dl>	
-				{{ if .Params.startdate }}
-				  <dt>Date de début</dt>
-				  <dd>{{ .Params.startdate }}</dd>
-				{{ end }}
-				{{ if .Params.enddate }}
-				  <dt>Date de fin</dt>
-				  <dd>{{ .Params.enddate }}</dd>
-				{{ end }}
-				{{ if .Params.location }}
-				  <dt>Lieu</dt>
-				  <dd>{{ .Params.location }}</dd>
-				{{ end }}
-				{{ if .Params.age }}
-				  <dt>Âge</dt>
-				  <dd>{{ .Params.age }}</dd>
-				{{ end }}	
-				{{ if .Params.price }}
-				  <dt>Prix</dt>
-				  <dd>{{ .Params.price }}</dd>
-				{{ end }}		
-				{{ if .Params.responsable }}
-				  <dt>Responsable</dt>
-				  <dd>{{ .Params.responsable }}</dd>
-				{{ end }}							
-				</dl>
-				
-			
-		</aside>
 
 		
 	</article>
@@ -57,15 +57,13 @@
 	
 	<nav class="pagination">	
 		{{ if .PrevInSection }}
-		<a href="{{.PrevInSection.Permalink}}">
-			⬅︎
+		<a href="{{.PrevInSection.Permalink}}">	
 			{{.PrevInSection.Title}}
 		</a>
 		{{ end }}
 		{{ if .NextInSection }}
 		<a href="{{.NextInSection.Permalink}}">
 			{{.NextInSection.Title}}
-			⮕
 		</a>
 		{{ end }}
 	</nav>
