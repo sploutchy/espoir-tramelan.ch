@@ -123,11 +123,9 @@ a{
   text-decoration: currentcolor underline;
 }
 a:hover{
-  /* color: var(--cuivre); */
+  color: var(--apple);
 }
-a:visited{
-  color: currentcolor;
-}
+
 
 #logo-espoir-tramelan{
   /* background: #ffffffcc;
@@ -220,6 +218,12 @@ h2, .h2 {
   margin-top: 0;
   margin-bottom: 0.2em;
 }
+.lead{
+  font-size: calc(1.2em + 1vw);
+  font-size: clamp(1.6em,calc(1.2em + 1vw),60px);
+  line-height: 1.3em;
+  font-weight: 600;
+}
 h3, .h3 {
   font-size: calc(0.9em + 1vw);
   font-size: -webkit-calc(90% + 1vw);
@@ -271,6 +275,92 @@ mark{
   background-color: yellow;
 }
 
+/* Homepage */
+.hero-image{
+  border-radius: 100%;
+  width: 30vh;
+  height: 30vh;
+  object-fit: contain;
+  float: right;
+}
+.homepage-section{
+  margin-top: 3em;
+}
+/* CAMPS */
+.listing-camps{
+  margin: 2em 0;
+  display: grid;
+  grid-gap: 3em;
+  grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr));
+}
+.listing-camps .camp{
+  
+}
+
+/* FAQ */
+.listing-faq{
+  margin: 2em 0;
+  display: grid;
+  grid-gap: 3em;
+  grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr));
+}
+.listing-faq .faq{
+  
+}
+
+
+/* Pagination */
+.pagination{
+  margin: 3em 0;
+  display: flex;
+  gap: 2em;
+  justify-content: space-between;
+}
+.pagination > *:last-child{
+  text-align: right;
+}
+
+
+/* Banner image */
+/* Banner show 3 pictures */
+.banner{
+  margin: 0 1em;
+  max-height: 60vh;
+  display: grid;
+  grid-template-rows: 0.3fr 1.3fr 3fr 0.3fr 1fr;
+  grid-template-columns: 3fr 0.3fr 3fr 0.3fr 2fr;
+  gap: 0px 0px;  
+}
+@media (max-width: 800px) { 
+  .banner{
+    grid-template-rows: 0.3fr 3fr 0.3fr 0.3fr 3fr;
+    grid-template-columns: 0.3fr 1fr 0.3fr 1fr 0.3fr;  
+  }
+}
+.banner img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.banner img:nth-child(1) { grid-area: 2 / 1 / 5 / 3; }
+.banner img:nth-child(2) { grid-area: 3 / 2 / 6 / 5; }
+.banner img:nth-child(3) { grid-area: 1 / 4 / 4 / 6; }
+
+/* Camp content Aside */
+.camp-content{
+ padding: 2em 0; 
+}
+.camp-content aside{
+  float: right;
+  margin: 0 0 2em 2em;
+  border: 1px solid var(--white);
+  padding: 1em;
+}
+
+/* definition list */
+dl dt{
+  font-weight: bold;
+}
 
 
 /* Quotes */
