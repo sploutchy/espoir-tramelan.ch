@@ -7,8 +7,7 @@ location: au Chalet des Bises à Tramelan
 price: 230.- CHF
 responsable: Pascal Geiser
 startdate: 3 juillet 2021
-teaser: 30 ans d'existence et toujours aussi fou. Rejoins-nous pour une semaine de
-  folie.
+teaser: 30 ans d'existence et toujours aussi fou. Rejoins-nous pour une semaine de folie.
 title: Bol d'Air 2021
 open: false
 ensavoirplus: Découvrir notre camp

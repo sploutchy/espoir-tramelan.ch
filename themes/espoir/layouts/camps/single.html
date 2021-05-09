@@ -9,11 +9,13 @@
 		  <p class="lead">{{ markdownify .Params.teaser }}</p>
 		{{ end }}
 		
-		<div class="banner">
-			{{ range $val := .Params.banner }}
-				<img src="/{{ $val }}" />
-			{{ end }}					
-		</div>
+		{{ if .Params.banner }}
+			<div class="banner">
+				{{ range $val := .Params.banner }}
+					<img src="/{{ $val }}" />
+				{{ end }}					
+			</div>
+		{{ end }}
 		
 		<div class="camp-content">
 			
