@@ -293,6 +293,11 @@ mark{
   grid-gap: 3em;
   grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr));
 }
+.listing-camps-banner{
+  object-fit: cover;
+  width: 100%;
+  height: 8em;
+}
 .listing-camps .camp{
   
 }

@@ -1,5 +1,5 @@
 ---
-title: Hollywood 2021
+title: Hollywood
 date: 2021-04-08T23:47:19.000+02:00
 open: true
 startdate: 10 juillet 2021
