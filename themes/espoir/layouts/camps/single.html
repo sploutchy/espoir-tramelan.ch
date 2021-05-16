@@ -9,6 +9,9 @@
 		  <p class="lead">{{ markdownify .Params.teaser }}</p>
 		{{ end }}
 		
+		{{ if .Params.open }}
+		<span class="camp-open">inscriptions<br/>ouvertes</span>
+		{{ end }}	
 		{{ if .Params.banner }}
 			<div class="banner">
 				{{ range $val := .Params.banner }}

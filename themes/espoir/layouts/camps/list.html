@@ -11,6 +11,9 @@
 		 data-aos-duration="500">				
 			{{$mainBanner := index (.Params.banner) 0 }}
 			<a href="{{.Permalink}}"><img src="/{{$mainBanner}}" alt="{{ .Title }}" class="listing-camps-banner"/></a>
+			{{ if .Params.open }}
+				<span class="camp-open">inscriptions<br/>ouvertes</span>
+			{{ end }}	
 			<h2>
 				{{ .Title }}	
 			</h2>			
