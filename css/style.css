@@ -287,11 +287,45 @@ mark{
   margin-top: 3em;
 }
 /* CAMPS */
+.camps{
+  position: relative;
+  padding-top: 0.4em;
+}
+.camps h1{
+  padding-right: 1em;
+}
+.camp-open{
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 60%;
+  padding: 0.5em;
+  position: absolute;
+  top:-1em;
+  right: -1em;
+  text-align: center;
+  transform: rotate(-15deg);
+  background-color: var(--crayola);
+  transition: all 0.1s ease-in-out;
+  box-shadow: 4px 4px 4px var(--blue);
+}
+.listing-camps .camp-open{
+  transform: rotate(15deg);
+  
+}
+.camp-open:hover{
+  transform: rotate(-5deg);
+  font-size: 70%;
+}
 .listing-camps{
   margin: 2em 0;
   display: grid;
   grid-gap: 3em;
   grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr));
+}
+.listing-camps-banner{
+  object-fit: cover;
+  width: 100%;
+  height: 8em;
 }
 .listing-camps .camp{
   
