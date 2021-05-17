@@ -10,7 +10,17 @@
 		{{ end }}
 		
 		{{ if .Params.open }}
-		<span class="camp-open">inscriptions<br/>ouvertes</span>
+			
+			<span class="camp-open">
+				{{ if eq .Params.full true }}
+				Le camps<br/>est complet
+				{{ else }}
+				inscriptions<br/>ouvertes
+				{{ end }}
+			</span>
+			{{ if .Params.form }}
+				<a href="{{ .Params.form }}" target="_blank" class="button">Inscrivez-vous en ligne</a>
+			{{ end }}	
 		{{ end }}	
 		{{ if .Params.banner }}
 			<div class="banner">

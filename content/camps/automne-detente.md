@@ -3,6 +3,7 @@ title : "Automne Détente"
 age : "de 8 à 15 ans"
 date : 2021-04-08T21:47:19Z
 open: true
+full: false
 enddate : "23 octobre 2021"
 location : "au Chalet des Bises à Tramelan"
 price : "230.- CHF"

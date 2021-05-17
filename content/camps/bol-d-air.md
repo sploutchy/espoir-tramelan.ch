@@ -8,7 +8,8 @@ price: 230.- CHF
 responsable: Pascal Geiser
 startdate: 3 juillet 2021
 teaser: 30 ans d'existence et toujours aussi fou. Rejoins-nous pour une semaine de folie.
-open: false
+open: true
+full: true
 ensavoirplus: Découvrir notre camp
 banner:
   - images/boldair_0.jpg

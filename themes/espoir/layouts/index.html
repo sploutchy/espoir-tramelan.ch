@@ -14,17 +14,34 @@
 	  <div class="listing-camps">
 		{{ range where .Site.Pages "Section" "camps" }}
 			{{ if .Params.teaser }}
-			<article class="camp">				
-				<h3>
+			
+			
+			<article class="camp" data-aos="fade-up"
+			 data-aos-duration="500">				
+				{{$mainBanner := index (.Params.banner) 0 }}
+				<a href="{{.Permalink}}"><img src="/{{$mainBanner}}" alt="{{ .Title }}" class="listing-camps-banner"/></a>
+					{{ if .Params.open }}
+					<span class="camp-open">
+						{{ if eq .Params.full true }}
+						Le camps<br/>est complet
+						{{ else }}
+						inscriptions<br/>ouvertes
+						{{ end }}
+					</span>
+					{{ end }}	
+				<h2>
 					{{ .Title }}	
-				</h3>			
+				</h2>			
+				{{ if .Params.teaser }}
 				  <p>{{ markdownify .Params.teaser }}</p>
+				{{ end }}	
 				<a href="{{.Permalink}}">
 					{{ if .Params.ensavoirplus }}
 					  {{ .Params.ensavoirplus }}
 					{{ end }}
 				</a>		
 			</article>			
+			
 			{{ end }}	
 		{{else}}
 			<p>Aucun camps à l'horizon</p>

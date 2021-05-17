@@ -2,9 +2,11 @@
 title: Hollywood
 date: 2021-04-08T23:47:19.000+02:00
 open: true
+full: false
 startdate: 10 juillet 2021
 enddate: 17 juillet 2021
 ensavoirplus: Découvrir notre camp
+form: https://tally.so/r/3XJqgn
 location: au Chalet des Bises à Tramelan
 teaser: Viens participer à la plus incroyable des productions hollywoodiennes. silence
   ça tourne... action!

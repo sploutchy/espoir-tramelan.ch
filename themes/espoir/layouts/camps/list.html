@@ -12,7 +12,13 @@
 			{{$mainBanner := index (.Params.banner) 0 }}
 			<a href="{{.Permalink}}"><img src="/{{$mainBanner}}" alt="{{ .Title }}" class="listing-camps-banner"/></a>
 			{{ if .Params.open }}
-				<span class="camp-open">inscriptions<br/>ouvertes</span>
+				<span class="camp-open">
+					{{ if eq .Params.full true }}
+					Le camps<br/>est complet
+					{{ else }}
+					inscriptions<br/>ouvertes
+					{{ end }}
+				</span>
 			{{ end }}	
 			<h2>
 				{{ .Title }}	
