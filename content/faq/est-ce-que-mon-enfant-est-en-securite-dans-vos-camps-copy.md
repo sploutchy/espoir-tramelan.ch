@@ -1,6 +1,6 @@
 +++
 date = 2021-05-23T18:57:53Z
-shortanswer = "Les camps ont lieu. Nous nous adaptons aux contraintes sanitaires en vigueur"
+shortanswer = "Les camps ont lieu. Nous nous adaptons aux conditions sanitaires en vigueur"
 title = "Quelles sont les mesures liées au Covid ?"
 
 +++
