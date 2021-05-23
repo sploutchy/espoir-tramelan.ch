@@ -1,6 +1,5 @@
 +++
 date = 2021-05-22T19:06:11Z
-draft = true
 shortanswer = "Nous sommes ouvert.e.s aux diversités"
 title = "Qui peut participer aux camps ?"
 
