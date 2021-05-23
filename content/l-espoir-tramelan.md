@@ -11,7 +11,7 @@ Les camps accueillent entre quinze et trente participant·e·s. Ce sont des enfa
 
 * de permettre aux enfants de découvrir ce que signifie "vie saine" en expérimentant toutes sortes d'activités variées et valorisantes dans un cadre sécurisant et respectueux de chacun·e.
 * d'informer les enfants sur certains comportements ou situations à risque et les encourager à se positionner personnellement face à cela.
-* de promouvoir, par ses activités, une vie saine en faisant de la prévention primaire: faire réfléchir l'enfant à ses attitudes face à un groupe, à ses valeurs, à ses besoins et à l'estime qu'il a de lui. Dans cette optique, l'attitude de l'équipe encadrante fait partie intégrante de la prévention: faire envie et être un modèle par sa vie saine pendant le camp.
+* de promouvoir, par ses activités, une vie saine en faisant de la prévention primaire: faire réfléchir l'enfant à ses attitudes face à un groupe, à ses valeurs, à ses besoins et à l'estime qu'il a de lui·elle. Dans cette optique, l'attitude de l'équipe encadrante fait partie intégrante de la prévention: faire envie et être un modèle par sa vie saine pendant le camp.
 * de faire découvrir aux enfants, par des moments de partage basés sur la Bible, la foi chrétienne (amour, patience, bienveillance...), dans le respect de leur personne et de leur confession.
 
 ## Le comité
