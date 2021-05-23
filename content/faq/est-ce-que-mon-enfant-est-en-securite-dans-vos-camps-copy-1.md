@@ -1,8 +1,8 @@
 +++
-date = 2021-04-21T18:57:53Z
+date = 2021-04-22T18:57:53Z
 draft = true
-shortanswer = "Oui, notre équipe encadrante est composée de personnes responsabless :-)"
-title = "Est-ce que mon enfant est en sécurité dans vos camps ?-(copy)"
+shortanswer = "Non l'équipe encadrante est bénévole."
+title = "Les moniteurs et monitrices sont-ils/elles payé·e·s?"
 
 +++
-Les responsables sont des adultes expérimentés ayant suivi une formation. Les monitrices et moniteurs sont des jeunes dès 17 ans, ayant également suivi une formation adéquate. Des stagiaires, dès 15 ans, complètent l’équipe d’encadrement.
+Les responsables, les moniteurs et monitrices, les cuisiniers et cuisinières sont toutes et tous bénévoles, ils rivalisent d'ingéniosité et d'imagination pour que la vie des camps et des rencontres aient une saveur unique et merveilleuse.
