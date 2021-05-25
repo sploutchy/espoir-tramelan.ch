@@ -7,6 +7,7 @@
   --green3: hsla(119, 92%, 19%, 1);
   --green4: hsla(119, 100%, 20%, 1);
   --apple: hsla(116, 96%, 31%, 1);
+  --apple2: hsla(116, 100%, 50%, 1);
   --white: hsla(0, 0%, 100%, 1);
   --wood: hsla(23, 86%, 17%, 1);
   --inwood: hsl(23, 100%, 18%);
@@ -126,6 +127,20 @@ a:hover{
   color: var(--apple);
 }
 
+a.button{
+  background-color: var(--apple);
+  color: var(--white);
+  border-radius: 0.5em;
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  /* faire clignoter :-) */
+}
+a.button:hover{
+  background-color: var(--apple2);
+  color: var(--blue);
+}
 
 #logo-espoir-tramelan{
   /* background: #ffffffcc;
