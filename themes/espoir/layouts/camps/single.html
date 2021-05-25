@@ -5,12 +5,12 @@
 			{{ .Title }}	
 		</h1>
 
+		
 		{{ if .Params.teaser }}
 		  <p class="lead">{{ markdownify .Params.teaser }}</p>
 		{{ end }}
 		
 		{{ if .Params.open }}
-			
 			<span class="camp-open">
 				{{ if eq .Params.full true }}
 				Le camps<br/>est complet
@@ -19,8 +19,8 @@
 				{{ end }}
 			</span>
 			{{ if .Params.form }}
-				<a href="{{ .Params.form }}" target="_blank" class="button">Inscrivez-vous en ligne</a>
-			{{ end }}	
+				<a href="{{ .Params.form }}" target="_blank" class="button">Inscription en ligne</a>
+			{{ end }}				
 		{{ end }}	
 		{{ if .Params.banner }}
 			<div class="banner">

@@ -10,6 +10,7 @@ startdate: 3 juillet 2021
 teaser: 30 ans d'existence et toujours aussi fou. Rejoins-nous pour une semaine de folie.
 open: true
 full: true
+form: https://tally.so
 ensavoirplus: Découvrir notre camp
 banner:
   - images/boldair_0.jpg
