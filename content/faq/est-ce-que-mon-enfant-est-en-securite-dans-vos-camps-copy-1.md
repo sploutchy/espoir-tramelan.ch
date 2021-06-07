@@ -1,6 +1,6 @@
 +++
 date = 2021-04-22T18:57:53Z
-shortanswer = "Non l'équipe encadrante est bénévole."
+shortanswer = "Non, l'équipe encadrante est bénévole."
 title = "Les moniteurs et monitrices sont-ils/elles payé·e·s?"
 
 +++
