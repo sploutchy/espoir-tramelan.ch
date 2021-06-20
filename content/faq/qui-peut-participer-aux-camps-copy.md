@@ -1,12 +1,8 @@
 +++
-date = 2021-05-22T19:06:11Z
+date = 2021-05-18T22:00:00Z
 draft = true
-shortanswer = "Nous accueillons tous les jeunes avec leurs diversités, dans la mesure de nos infrastructures"
-title = "Qui peut participer aux camps ?-(copy)"
+shortanswer = "L’Espoir Tramlean se base sur les valeurs portées par la foi chrétienne, les camps sont ouverts à toutes confessions."
+title = "L’espoir Tramelan semble être un mouvement chrétien, qu’est-ce que cela signifie ?"
 
 +++
-Les camps accueillent entre quinze et trente participant·e·s. Ce sont des enfants, des adolescent·e·s ou des jeunes de tous les cantons.
-
-Nous valorisons la diversité et travaillons pour crée un espace sans discrimination (de genre, d’ethnie, de religion, d’orientation de sexuelle, etc.)
-
-Si votre enfant a un/des handicaps ou des besoins spécifiques, n’hésitez pas à nous contacter pour discuter des possibilités.
+L’Espoir Tramlean se base surtout sur les valeurs portées par la foi chrétienne et celles-ci peuvent être présentées et discutées durant les camps ainsi que parfois dans des moments de chants. Mais les camps sont ouverts à toutes confessions et n’ont pas vocation à faire du catéchisme
