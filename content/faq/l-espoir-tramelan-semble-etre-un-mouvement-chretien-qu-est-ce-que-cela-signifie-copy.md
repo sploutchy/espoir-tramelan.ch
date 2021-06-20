@@ -1,7 +1,7 @@
 +++
 date = 2021-05-18T22:00:00Z
 shortanswer = "Il y a une réduction de 30.- pour une deuxième inscription dans une famille. D'autres aides sont possibles sur demande."
-title = "Comment optenir une aide financière pour une inscritpion?"
+title = "Comment optenir une aide financière ?"
 
 +++
 Aides financières:
