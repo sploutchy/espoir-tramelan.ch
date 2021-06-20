@@ -1,8 +1,12 @@
 +++
 date = 2021-05-18T22:00:00Z
 draft = true
-shortanswer = "L’Espoir Tramlean se base sur les valeurs portées par la foi chrétienne, les camps sont ouverts à toutes confessions."
-title = "L’espoir Tramelan semble être un mouvement chrétien, qu’est-ce que cela signifie ?-(copy)"
+shortanswer = "Il y a une réduction de 30.- pour une deuxième inscription dans une famille. D'autres aides sont possibles sur demande."
+title = "Comment optenir une aide financière pour une inscritpion?"
 
 +++
-L’Espoir Tramlean se base surtout sur les valeurs portées par la foi chrétienne et celles-ci peuvent être présentées et discutées durant les camps ainsi que parfois dans des moments de chants. Mais les camps sont ouverts à toutes confessions et n’ont pas vocation à faire du catéchisme
+Aides financières:
+
+* Réduction de CHF 30.– dès le deuxième enfant d’une même fa­mille inscrit∙e dans le même camp. 
+* Sur demande auprès du secrétariat, possibilité de payer en plusieurs mensualités, sans supplément. 
+* Des aides financières sont possibles en complétant un formulaire que nous tenons à votre disposition sur simple demande. Une commission issue du comité de l’Espoir Tramelan traitera chaque demande avec discrétion et répondra dans les plus brefs délais. Chaque demande devra être en notre possession aux dates suivantes: Pour l’été: 15 juin, Pour l’automne: 15 septembre
