@@ -1,6 +1,5 @@
 +++
 date = 2021-05-18T22:00:00Z
-draft = true
 shortanswer = "L’Espoir Tramlean se base sur les valeurs portées par la foi chrétienne, les camps sont ouverts à toutes confessions."
 title = "L’espoir Tramelan semble être un mouvement chrétien, qu’est-ce que cela signifie ?"
 
