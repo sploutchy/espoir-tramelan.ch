@@ -6,7 +6,7 @@ full: false
 startdate: 10 juillet 2021
 enddate: 17 juillet 2021
 ensavoirplus: Découvrir notre camp
-form: /uploads/papillon2021_web.pdf
+form: https://tally.so/r/wz7Ean
 location: au Chalet des Bises à Tramelan
 teaser: Viens participer à la plus incroyable des productions hollywoodiennes. silence
   ça tourne... action!
