@@ -320,12 +320,15 @@ mark{
   text-align: center;
   transform: rotate(-15deg);
   background-color: var(--crayola);
+  color: var(--white);
   transition: all 0.1s ease-in-out;
   box-shadow: 4px 4px 4px var(--blue);
 }
+.camp-complet{
+  background-color: var(--inwood);
+}
 .listing-camps .camp-open{
   transform: rotate(15deg);
-  
 }
 .camp-open:hover{
   transform: rotate(-5deg);

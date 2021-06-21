@@ -19,16 +19,19 @@
 			<article class="camp" data-aos="fade-up"
 			 data-aos-duration="500">				
 				{{$mainBanner := index (.Params.banner) 0 }}
-				<a href="{{.Permalink}}"><img src="/{{$mainBanner}}" alt="{{ .Title }}" class="listing-camps-banner"/></a>
+				<a href="{{.Permalink}}"><img src="/{{$mainBanner}}" alt="{{ .Title }}" class="listing-camps-banner"/>
 					{{ if .Params.open }}
-					<span class="camp-open">
 						{{ if eq .Params.full true }}
-						Le camps<br/>est complet
+						<span class="camp-open camp-complet">
+							Le camps<br/>est complet
+						</span>
 						{{ else }}
-						inscriptions<br/>ouvertes
+						<span class="camp-open">
+							inscriptions<br/>ouvertes
+						</span>
 						{{ end }}
-					</span>
 					{{ end }}	
+				</a>
 				<h2>
 					{{ .Title }}	
 				</h2>			

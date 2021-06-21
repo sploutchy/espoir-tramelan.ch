@@ -11,16 +11,18 @@
 		{{ end }}
 		
 		{{ if .Params.open }}
-			<span class="camp-open">
-				{{ if eq .Params.full true }}
+			{{ if eq .Params.full true }}
+			<span class="camp-open camp-complet">
 				Le camps<br/>est complet
-				{{ else }}
-				inscriptions<br/>ouvertes
-				{{ end }}
 			</span>
-			{{ if .Params.form }}
-				<a href="{{ .Params.form }}" target="_blank" class="button">Inscription en ligne</a>
-			{{ end }}				
+			{{ else }}
+				<span class="camp-open">
+					inscriptions<br/>ouvertes
+				</span>
+				{{ if .Params.form }}
+					<a href="{{ .Params.form }}" target="_blank" class="button">Inscription en ligne</a>
+				{{ end }}				
+			{{ end }}
 		{{ end }}	
 		{{ if .Params.banner }}
 			<div class="banner">
@@ -69,17 +71,49 @@
 	</article>
 	
 	
+	<section class="homepage-section">
+		<h2>Découvrez tous nos camps</h2>
+		  <div class="listing-camps">
+			{{ range where .Site.Pages "Section" "camps" }}
+				{{ if .Params.teaser }}
+				
+				
+				<article class="camp" data-aos="fade-up"
+				 data-aos-duration="500">				
+					{{$mainBanner := index (.Params.banner) 0 }}
+					<a href="{{.Permalink}}"><img src="/{{$mainBanner}}" alt="{{ .Title }}" class="listing-camps-banner"/>
+						{{ if .Params.open }}
+							{{ if eq .Params.full true }}
+							<span class="camp-open camp-complet">
+								Le camps<br/>est complet
+							</span>
+							{{ else }}
+							<span class="camp-open">
+								inscriptions<br/>ouvertes
+							</span>
+							{{ end }}
+						{{ end }}	
+					</a>
+					<h2>
+						{{ .Title }}	
+					</h2>			
+					{{ if .Params.teaser }}
+					  <p>{{ markdownify .Params.teaser }}</p>
+					{{ end }}	
+					<a href="{{.Permalink}}">
+						{{ if .Params.ensavoirplus }}
+						  {{ .Params.ensavoirplus }}
+						{{ end }}
+					</a>		
+				</article>			
+				
+				{{ end }}	
+			{{else}}
+				<p>Aucun camps à l'horizon</p>
+			{{ end }}
+		  </div>
+		</section>
 	
-	<nav class="pagination">	
-		{{ if .PrevInSection }}
-		<a href="{{.PrevInSection.Permalink}}">	
-			{{.PrevInSection.Title}}
-		</a>
-		{{ end }}
-		{{ if .NextInSection }}
-		<a href="{{.NextInSection.Permalink}}">
-			{{.NextInSection.Title}}
-		</a>
-		{{ end }}
-	</nav>
+	
+
 {{ end }}
