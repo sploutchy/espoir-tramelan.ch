@@ -8,4 +8,4 @@ Les camps accueillent entre quinze et trente participant·e·s. Ce sont des enfa
 
 Nous valorisons la diversité et travaillons pour crée un espace sans discrimination (de genre, d’ethnie, de religion, d’orientation de sexuelle, etc.)
 
-Si votre enfant a un/des handicaps ou des besoins spécifiques, n’hésitez pas à nous contacter pour discuter des possibilités, dans la mesure de nos infrastructures et des ressources de l'équipe encadrante.
+Si votre enfant est en situation de handicap ou a des besoins spécifiques, n’hésitez pas à nous contacter pour discuter des possibilités, dans la mesure de nos infrastructures et des ressources de l'équipe encadrante.
