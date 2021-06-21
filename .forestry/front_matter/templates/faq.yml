@@ -1,0 +1,13 @@
+---
+label: faq
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: shortanswer
+  label: shortanswer
+- type: datetime
+  name: date
+  label: date
