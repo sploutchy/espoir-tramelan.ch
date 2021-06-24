@@ -3,7 +3,7 @@ title: Hollywood
 date: 2021-04-08T23:47:19.000+02:00
 open: true
 full: false
-startdate: 10 juillet 2021
+startdate: 11 juillet 2021
 enddate: 17 juillet 2021
 ensavoirplus: Découvrir notre camp
 form: https://tally.so/r/mY4P5n?camp=Hollywood
