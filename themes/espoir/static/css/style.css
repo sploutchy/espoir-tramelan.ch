@@ -219,7 +219,7 @@ h1, h2, h3, h4, h5{
 }
 h1, .h1, .h-huge {
   font-size: -webkit-calc(200% + 4vw);
-  font-size: clamp(2em,calc(2em + 4vw),100px);
+  font-size: clamp(1.8em,calc(2em + 4vw),100px);
   line-height: 1.1em;
   font-weight: normal;
   margin-top: 0;
@@ -307,7 +307,7 @@ mark{
   padding-top: 0.4em;
 }
 .camps h1{
-  padding-right: 1em;
+  padding-top: 20px;
 }
 .camp-open{
   display: inline-block;
@@ -316,13 +316,17 @@ mark{
   padding: 0.5em;
   position: absolute;
   top:-1em;
-  right: -1em;
   text-align: center;
   transform: rotate(-15deg);
   background-color: var(--crayola);
   color: var(--white);
   transition: all 0.1s ease-in-out;
   box-shadow: 4px 4px 4px var(--blue);
+}
+.camps .camp-open {
+}
+.listing-camps .camp-open{
+  right: -1em;
 }
 .camp-complet{
   background-color: var(--inwood);
