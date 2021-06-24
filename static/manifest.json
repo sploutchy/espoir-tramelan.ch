@@ -1,0 +1,9 @@
+{
+	"lang": "fr",
+	"short_name": "EspoirTramelan",
+	"name": "espoir",
+	"start_url": "/index.html",
+	"display": "minimal-ui",
+	"background_color": "hsla(211, 82%, 19%, 1)",
+	"theme_color": "hsl(197, 100%, 72.9%)"
+}
