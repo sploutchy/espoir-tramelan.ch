@@ -9,7 +9,7 @@ enddate: 23 octobre 2021
 location: au Chalet des Bises à Tramelan
 price: 230.- CHF
 responsable: Aline Gagnebin
-startdate: 16 octobre 2021
+startdate: 17 octobre 2021
 ensavoirplus: Découvrir notre camp
 teaser: 'Un lieu unique, une ambiance unique, des activités uniques. Bref : un camp
   unique !'
