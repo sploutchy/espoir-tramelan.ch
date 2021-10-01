@@ -1,7 +1,7 @@
 ---
 title: Hollywood
 date: 2021-04-08T23:47:19.000+02:00
-open: true
+open: false
 full: false
 startdate: 11 juillet 2021
 enddate: 17 juillet 2021
