@@ -2,6 +2,9 @@
 date = 2021-09-30T22:00:00Z
 shortanswer = "Notre engagement vous tient à coeur? Votre soutien nous permet de réaliser nos camps avec des enfants et des jeunes."
 title = "Comment soutenir l'Espoir Tramelan?"
+[menu.main]
+name = "Nous soutenir"
+weight = 5
 
 +++
 ### Par TWINT
