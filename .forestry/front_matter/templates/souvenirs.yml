@@ -5,36 +5,18 @@ fields:
 - type: text
   name: title
   label: title
-- type: text
-  name: age
-  label: age
 - type: datetime
   name: date
   label: date
-- type: boolean
-  name: open
-  label: open
-- type: boolean
-  name: full
-  label: full
 - type: text
-  name: form
-  label: form
+  name: startdate
+  label: startdate
 - type: text
   name: enddate
   label: enddate
 - type: text
   name: location
   label: location
-- type: text
-  name: price
-  label: price
-- type: text
-  name: responsable
-  label: responsable
-- type: text
-  name: startdate
-  label: startdate
 - type: text
   name: ensavoirplus
   label: ensavoirplus
