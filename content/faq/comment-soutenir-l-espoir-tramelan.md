@@ -1,6 +1,5 @@
 +++
 date = ""
-draft = true
 shortanswer = "Notre engagement vous tient à coeur? Votre soutien nous permet de réaliser nos camps avec des enfants et des jeunes."
 title = "Comment soutenir l'Espoir Tramelan?"
 
