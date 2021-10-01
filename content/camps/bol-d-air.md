@@ -9,8 +9,8 @@ responsable: Pascal Geiser
 startdate: 3 juillet 2021
 teaser: 30 ans d'existence et toujours aussi fou. Rejoins-nous pour une semaine de
   folie.
-open: true
-full: true
+open: false
+full: false
 form: https://tally.so/r/mY4P5n?camp=Bol%20d'air
 ensavoirplus: Découvrir notre camp
 banner:
