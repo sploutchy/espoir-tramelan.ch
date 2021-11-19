@@ -4,7 +4,7 @@ enddate = 2020-10-09T22:00:00Z
 location = "Tramelan"
 startdate = 2020-10-03T22:00:00Z
 teaser = "La bonne ambiance"
-title = "Automne Détente"
+title = "Automne Détente 2020"
 
 +++
 Malgré une année 2020 sous la coupe du Covid 19, Autonome Détente a retroussé ses gants pour permettre à tous les campeurs et moniteurs d’élever la barre des années précédentes en termes de joie, de convivialité, de surprises, d’émotion et d’ambiance !
