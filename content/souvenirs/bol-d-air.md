@@ -6,7 +6,7 @@ location = "Tramelan"
 startdate = 2020-07-03T22:00:00Z
 teaser = "32ème édition"
 text = ""
-title = "Bol d'Air"
+title = "Bol d'Air 2020"
 
 +++
 **Et oui ! Les dernières mesures de l’OFSP nous ont autorisés à faire ce camp tant attendu par les campeurs et les moniteurs.** C’est donc avec beaucoup d’enthousiasme mais aussi quelque peu d’appréhension que nous nous sommes tous retrouvés en ce début d’été sur les hauts de Tramelan, pour passer une belle semaine remplie de partages et d’amitiés.
