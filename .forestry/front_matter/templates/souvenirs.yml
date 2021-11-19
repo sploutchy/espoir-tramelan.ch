@@ -5,24 +5,33 @@ fields:
 - type: text
   name: title
   label: title
-- type: datetime
-  name: date
-  label: date
 - type: text
-  name: startdate
-  label: startdate
-- type: text
-  name: enddate
-  label: enddate
+  name: teaser
+  label: teaser
 - type: text
   name: location
   label: location
 - type: text
   name: ensavoirplus
   label: ensavoirplus
-- type: text
-  name: teaser
-  label: teaser
 - type: image_gallery
   name: banner
   label: banner
+- name: startdate
+  type: datetime
+  label: startdate
+  description: ''
+  config:
+    required: false
+    date_format: DD
+    time_format: 
+    display_utc: false
+- name: enddate
+  type: datetime
+  label: enddate
+  description: ''
+  config:
+    required: false
+    date_format: DD MMMM YYYY
+    time_format: 
+    display_utc: false
