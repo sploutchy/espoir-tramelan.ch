@@ -33,5 +33,6 @@ fields:
   name: banner
   label: banner
 pages:
+- content/souvenirs/automne-detente.md
 - content/souvenirs/bol-d-air.md
 - content/souvenirs/hollywood.md
