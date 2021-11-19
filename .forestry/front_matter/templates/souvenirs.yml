@@ -32,14 +32,5 @@ fields:
 - type: image_gallery
   name: banner
   label: banner
-- name: text
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: text
 pages:
 - content/souvenirs/bol-d-air.md
