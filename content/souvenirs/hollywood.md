@@ -4,7 +4,7 @@ enddate = 2020-07-17T22:00:00Z
 location = "Tramelan"
 startdate = 2020-07-11T22:00:00Z
 teaser = "Un souffle de magie"
-title = "Hollywood"
+title = "Hollywood 2020"
 
 +++
 Ce**tte année, la magie fût à l’honneur sous les projecteurs d’Hollywood.** Un joli défi à relever pour notre équipe de tournage. C’est 23 apprenties-sorcières et apprentis-sorciers qui se sont retrouvé-e-s au chalet des Bises à Tramelan, dans le monde de Harry Potter.
