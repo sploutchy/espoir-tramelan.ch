@@ -353,6 +353,58 @@ mark{
   
 }
 
+/* SOUVENIRS */
+.souvenirs{
+  position: relative;
+  padding-top: 0.4em;
+}
+.souvenirs h1{
+  padding-top: 20px;
+}
+.souvenir-open{
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 60%;
+  padding: 0.5em;
+  position: absolute;
+  top:-1em;
+  text-align: center;
+  transform: rotate(-15deg);
+  background-color: var(--crayola);
+  color: var(--white);
+  transition: all 0.1s ease-in-out;
+  box-shadow: 4px 4px 4px var(--blue);
+}
+.souvenirs .souvenir-open {
+}
+.listing-souvenirs .souvenir-open{
+  right: -1em;
+}
+.souvenir-complet{
+  background-color: var(--inwood);
+}
+.listing-souvenirs .souvenir-open{
+  transform: rotate(15deg);
+}
+.souvenir-open:hover{
+  transform: rotate(-5deg);
+  font-size: 70%;
+}
+.listing-souvenirs{
+  margin: 2em 0;
+  display: grid;
+  grid-gap: 3em;
+  grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr));
+}
+.listing-souvenirs-banner{
+  object-fit: cover;
+  width: 100%;
+  height: 8em;
+}
+.listing-souvenirs .souvenir{
+  
+}
+
 /* FAQ */
 .listing-faq{
   margin: 2em 0;

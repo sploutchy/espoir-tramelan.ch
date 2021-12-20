@@ -1,0 +1,22 @@
+{{ define "main" }}
+	{{ if .Content }}
+	<div>
+		{{ with .Content }}<div>{{ . }}</div>{{ end }}
+	</div>
+	{{ end }}
+	<div class="listing-souvenirs">
+	{{ range .Data.Pages }}
+		<article class="souvenir" data-aos="fade-up" data-aos-duration="500">
+			{{$mainBanner := index (.Params.banner) 0 }}
+			<a href="{{.Permalink}}"><img src="/{{$mainBanner}}" alt="{{ .Title }}" class="listing-souvenirs-banner"/></a>
+			<h2>
+				{{ .Title }}
+			</h2>
+			{{ if .Params.teaser }}
+			  <p>{{ markdownify .Params.teaser }}</p>
+			{{ end }}
+			<a href="{{.Permalink}}">Plus...</a>
+		</article>
+	{{ end }}
+	</div>
+{{ end }}
