@@ -7,16 +7,17 @@ name = "Nous soutenir"
 weight = 5
 
 +++
-### Par TWINT
+## Par TWINT
 
-[En cliquant ici!](https://donate.raisenow.io/mppbq "Faire un don avec TWINT")
+<br/>
+{{<button href="https://donate.raisenow.io/mppbq" name="Faire un don avec TWINT" >}}
+<br/>
 
-### Par versement bancaire
+## Par versement bancaire
 
-Au nom de: `Espoir Tramelan, 2720 Tramelan`
-
+Au nom de: `Espoir Tramelan, 2720 Tramelan`<br/>
 IBAN: `CH54 0079 0042 9224 4688 7`
 
-### Par votre engagement
+## Par votre engagement
 
 [Contactez-nous](https://espoir-tramelan.ch/contact/ "Contact") pour vous engager!

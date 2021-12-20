@@ -142,6 +142,10 @@ a.button:hover{
   color: var(--blue);
 }
 
+.button-container + .button-container{
+  margin-top: 10px;
+}
+
 #logo-espoir-tramelan{
   /* background: #ffffffcc;
   box-shadow: 0 0 4em #fff; */
