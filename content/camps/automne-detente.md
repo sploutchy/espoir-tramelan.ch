@@ -4,7 +4,7 @@ age: de 8 à 15 ans
 date: 2021-04-08T21:47:19.000+00:00
 open: false
 full: false
-form: https://tally.so/r/mY4P5n?camp=Automne%20Détente
+form: https://tally.so/r/woZEV3?camp=Automne%20Détente
 enddate: 15 octobre 2022
 location: au Chalet des Bises à Tramelan
 price: 230.- CHF
