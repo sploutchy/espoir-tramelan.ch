@@ -2,16 +2,16 @@
 title: Bol d'Air
 age: de 8 à 14 ans
 date: 2021-04-08T21:47:19.000+00:00
-enddate: 11 juillet 2021
+enddate: 16 juillet 2022
 location: au Chalet des Bises à Tramelan
 price: 230.- CHF
 responsable: Pascal Geiser
-startdate: 3 juillet 2021
+startdate: 9 juillet 2022
 teaser: 30 ans d'existence et toujours aussi fou. Rejoins-nous pour une semaine de
   folie.
 open: false
 full: false
-form: https://tally.so/r/mY4P5n?camp=Bol%20d'air
+form: https://tally.so/r/woZEV3?camp=Bol%20d'air
 ensavoirplus: Découvrir notre camp
 banner:
 - images/boldair_0.jpg
