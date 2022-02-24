@@ -5,11 +5,11 @@ date: 2021-04-08T21:47:19.000+00:00
 open: false
 full: false
 form: https://tally.so/r/mY4P5n?camp=Automne%20Détente
-enddate: 23 octobre 2021
+enddate: 15 octobre 2022
 location: au Chalet des Bises à Tramelan
 price: 230.- CHF
 responsable: Aline Gagnebin
-startdate: 17 octobre 2021
+startdate: 8 octobre 2022
 ensavoirplus: Découvrir notre camp
 teaser: 'Un lieu unique, une ambiance unique, des activités uniques. Bref : un camp
   unique !'
