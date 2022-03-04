@@ -42,4 +42,5 @@ fields:
   hidden: true
   default: now
 pages:
+- content/camps/bol-d-air.md
 - content/camps/hollywood.md
