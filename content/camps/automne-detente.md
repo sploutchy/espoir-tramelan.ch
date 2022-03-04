@@ -8,7 +8,7 @@ form: https://tally.so/r/woZEV3?camp=Automne%20Détente
 enddate: 15 octobre 2022
 location: au Chalet le Refuge à Tramelan
 price: 230.- CHF
-responsable: Aline Gagnebin
+responsable: Aline Gagnebin et Matthieu Charpié
 startdate: 8 octobre 2022
 ensavoirplus: Découvrir notre camp
 teaser: 'Un lieu unique, une ambiance unique, des activités uniques. Bref : un camp
