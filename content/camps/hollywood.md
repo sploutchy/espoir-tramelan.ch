@@ -7,7 +7,7 @@ startdate: 17 juillet 2022
 enddate: 23 juillet 2022
 ensavoirplus: Découvrir notre camp
 form: https://tally.so/r/woZEV3?camp=Hollywood
-location: au <a href="https://www.chaletlerefuge.ch/">Chalet le Refuge</a> à Tramelan
+location: au Chalet le Refuge à Tramelan
 teaser: Viens participer à la plus incroyable des productions hollywoodiennes. silence
   ça tourne... action!
 age: de 13 à 17 ans
