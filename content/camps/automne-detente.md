@@ -6,7 +6,7 @@ open: false
 full: false
 form: https://tally.so/r/woZEV3?camp=Automne%20Détente
 enddate: 15 octobre 2022
-location: au Chalet des Bises à Tramelan
+location: au Chalet le Refuge à Tramelan
 price: 230.- CHF
 responsable: Aline Gagnebin
 startdate: 8 octobre 2022
