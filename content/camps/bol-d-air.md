@@ -3,7 +3,7 @@ title: Bol d'Air
 age: de 8 à 14 ans
 date: 2021-04-08T21:47:19.000+00:00
 enddate: 16 juillet 2022
-location: au Chalet des Bises à Tramelan
+location: au Chalet le Refuge à Tramelan
 price: 230.- CHF
 responsable: Pascal Geiser
 startdate: 9 juillet 2022
