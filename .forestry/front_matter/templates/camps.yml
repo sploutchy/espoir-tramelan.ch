@@ -24,6 +24,12 @@ fields:
 - type: text
   name: location
   label: location
+- name: locationlink
+  type: text
+  config:
+    required: false
+  label: location link
+  default: https://www.chaletlerefuge.ch/
 - type: text
   name: price
   label: price
