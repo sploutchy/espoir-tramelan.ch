@@ -41,3 +41,5 @@ fields:
   label: date de publication
   hidden: true
   default: now
+pages:
+- content/camps/hollywood.md
