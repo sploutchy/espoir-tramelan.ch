@@ -2,7 +2,7 @@
 title: Automne Détente
 age: de 8 à 15 ans
 date: 2022-03-04T10:46:21+00:00
-open: false
+open: true
 full: false
 form: https://tally.so/r/woZEV3?camp=Automne%20Détente
 enddate: 15 octobre 2022
