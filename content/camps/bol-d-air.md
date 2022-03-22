@@ -10,7 +10,7 @@ startdate: 9 juillet 2022
 teaser: 30 ans d'existence et toujours aussi fou. Rejoins-nous pour une semaine de
   folie.
 open: true
-full: false
+full: true
 form: https://tally.so/r/woZEV3?camp=Bol%20d'air
 ensavoirplus: Découvrir notre camp
 banner:
