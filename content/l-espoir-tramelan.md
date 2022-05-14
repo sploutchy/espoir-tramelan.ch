@@ -16,12 +16,12 @@ Les camps accueillent entre quinze et trente participant·e·s. Ce sont des enfa
 
 ## Le comité
 
-* **Présidente:** Humbert Solène
-* **Vice Présidente:** Kaufmann Anaëlle
-* **Secrétaire:** Grosvernier Oriane
-* **Caissière:** Engels Megan
-* **Membre:** Charpié Mathieu
-* **Membre:** Charpié Romane
-* **Membre:** Heiniger Sylvain
-* **Membre:** Kaufmann Clélio
-* **Membre:** Paupe Matthieu
+* **Présidente:** Oriane Grosvernier
+* **Vice Président:** Mathieu Charpié
+* **Secrétaire:** Anaëlle Kaufmann
+* **Caissier:** Quentin Vuilleumier
+* **Membre:** Megan Engels
+* **Membre:** Romane Charpié
+* **Membre:** Sylvain Heiniger 
+* **Membre:** Clélio Kaufmann
+* **Membre:** Matthieu Paupe
