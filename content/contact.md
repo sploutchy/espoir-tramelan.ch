@@ -1,3 +1,6 @@
++++
+
++++
 # Nous contacter
 
 ## Par courrier
@@ -14,3 +17,8 @@ Case Postale 14<br/>
 
 T: 078 215 49 34<br/>
 _lundi et mercredi de 18h à 20h_
+
+## Nos amis
+
+Le chalet [Le Refuge](https://www.chaletlerefuge.ch/ ), un lieu idéal pour nos camps, et les vôtres!  
+[Jeunesse et Camps](https://www.jeunesse-et-camps.ch/) organise aussi des camps de vacances.
