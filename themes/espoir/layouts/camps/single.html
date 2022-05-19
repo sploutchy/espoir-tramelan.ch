@@ -43,7 +43,7 @@
 					{{ end }}
 					{{ if .Params.location }}
 					  <dt>Lieu</dt>
-  					  <dd>{{ if .Params.locationlink }}<a href="{{ .Params.form }}" target="_blank" class="button">{{ end }}{{ .Params.location }}{{ if .Params.locationlink }}</a>{{ end }}</dd>
+  					  <dd>{{ if .Params.locationlink }}<a href="{{ .Params.locationlink }}" target="_blank">{{ end }}{{ .Params.location }}{{ if .Params.locationlink }}</a>{{ end }}</dd>
 					{{ end }}
 					{{ if .Params.age }}
 					  <dt>Âge</dt>
