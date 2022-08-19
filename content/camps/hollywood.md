@@ -1,7 +1,7 @@
 ---
 title: Hollywood
-date: 2022-03-04T10:45:51+00:00
-open: true
+date: 2022-03-04T10:45:51.000+00:00
+open: false
 full: false
 startdate: 17 juillet 2022
 enddate: 23 juillet 2022
