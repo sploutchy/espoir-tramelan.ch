@@ -7,7 +7,7 @@ startdate: 16 juillet 2023
 enddate: 23 juillet 2023
 ensavoirplus: Découvrir notre camp
 form: https://tally.so/r/woZEV3?camp=Hollywood
-location: Au Mont Dedos, au dessus de Moutier
+location: Mont Dedos, au dessus de Moutier
 teaser: Viens participer à la plus incroyable des productions hollywoodiennes. silence
   ça tourne... action!
 age: de 13 à 17 ans
