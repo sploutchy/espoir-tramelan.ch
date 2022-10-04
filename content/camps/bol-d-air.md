@@ -2,11 +2,11 @@
 title: Bol d'Air
 age: de 8 à 14 ans
 date: 2022-03-04T10:46:06.000+00:00
-enddate: 16 juillet 2022
+enddate: 15 juillet 2023
 location: au Chalet le Refuge à Tramelan
 price: 230.- CHF
 responsable: Pascal Geiser
-startdate: 9 juillet 2022
+startdate: 8 juillet 2023
 teaser: 30 ans d'existence et toujours aussi fou. Rejoins-nous pour une semaine de
   folie.
 open: false
