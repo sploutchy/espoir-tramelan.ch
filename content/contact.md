@@ -5,9 +5,9 @@
 
 ## Par courrier
 
-**Espoir Tramelan  
-**c/o Mathieu Charpié  
-Rue des Deutes 7A  
+**Espoir Tramelan**
+c/o Mathieu Charpié
+Rue des Deutes 7A
 2720 Tramelan
 
 ## Par e-mail
