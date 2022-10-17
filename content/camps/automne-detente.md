@@ -2,14 +2,14 @@
 title: Automne Détente
 age: de 8 à 15 ans
 date: 2022-03-04T10:46:21.000+00:00
-open: true
-full: true
+open: false
+full: false
 form: https://tally.so/r/woZEV3?camp=Automne%20Détente
-enddate: 15 octobre 2022
+enddate: 14 octobre 2022
 location: au Chalet le Refuge à Tramelan
 price: 230.- CHF
 responsable: Aline Gagnebin et Matthieu Charpié
-startdate: 8 octobre 2022
+startdate: 7 octobre 2023
 ensavoirplus: Découvrir notre camp
 teaser: 'Un lieu unique, une ambiance unique, des activités uniques. Bref : un camp
   unique !'
