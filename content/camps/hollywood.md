@@ -4,7 +4,7 @@ date: 2022-03-04T10:45:51.000+00:00
 open: false
 full: false
 startdate: 16 juillet 2023
-enddate: 23 juillet 2023
+enddate: 22 juillet 2023
 ensavoirplus: Découvrir notre camp
 form: https://tally.so/r/woZEV3?camp=Hollywood
 location: Mont Dedos, au dessus de Moutier
