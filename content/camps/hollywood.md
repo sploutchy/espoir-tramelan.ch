@@ -5,7 +5,7 @@ open: false
 full: false
 startdate: 16 juillet 2023
 enddate: 22 juillet 2023
-ensavoirplus: Découvrir notre camp
+ensavoirplus: 'Découvrir notre camp ! '
 form: https://tally.so/r/woZEV3?camp=Hollywood
 location: Mont Dedos, au dessus de Moutier
 teaser: Viens participer à la plus incroyable des productions hollywoodiennes. silence
