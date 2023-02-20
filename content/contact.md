@@ -17,7 +17,7 @@ Rue des Deutes 7A
 
 [info@espoir-tramelan.ch](mailto:info@espoir-tramelan.ch)
 
-## Par téléphone
+## Par téléphone ou WhatsApp
 
 T: 078 215 49 34<br/>
 _lundi et mercredi de 18h à 20h_
