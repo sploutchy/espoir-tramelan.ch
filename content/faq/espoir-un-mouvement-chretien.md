@@ -1,7 +1,7 @@
 +++
 date = 2021-05-18T22:00:00Z
-shortanswer = "L’Espoir Tramlean se base sur les valeurs portées par la foi chrétienne, les camps sont ouverts à toutes confessions."
-title = "Un mouvement chrétien, qu’est-ce que cela signifie ?"
+shortanswer = "L’Espoir Tramelan se base sur des valeurs sociétaires clés et notamment portées par la foi chrétienne, les camps sont ouverts à toutes confessions."
+title = "Un esprit et des valeurs inspirées de la foi chrétienne, qu'est-ce que cela signifie?"
 
 +++
-L’Espoir Tramlean se base surtout sur les valeurs portées par la foi chrétienne et celles-ci peuvent être présentées et discutées durant les camps ainsi que parfois dans des moments de chants. Mais les camps sont ouverts à toutes confessions et n’ont pas vocation à faire du catéchisme.
+L’Espoir Tramelan se base sur des valeurs sociétaires clés et notamment portées par la foi chrétienne, telles que le partage, la bienveillance, la confiance ou encore le respect. Ces valeurs, qui fondent notre société, visent à améliorer le vivre ensemble. Qu'elles soient perçues de manière laïque ou chrétienne, elles forgent l’atmosphère qui guide nos camps. Elles peuvent être abordées et discutées durant les camps ainsi que parfois dans des moments de chants. Cela ne s’apparente en aucun cas à du catéchisme. Ainsi, les camps sont ouverts à toutes personnes, quelles que soient les croyances, confessions et origines culturelles.
