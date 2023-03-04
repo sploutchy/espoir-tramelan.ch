@@ -1,6 +1,6 @@
 +++
 date = 2021-05-18T22:00:00Z
-shortanswer = "L’Espoir Tramelan se base sur des valeurs sociétaires clés et notamment portées par la foi chrétienne, les camps sont ouverts à toutes confessions."
+shortanswer = "L’Espoir Tramelan se base sur des valeurs sociétaires clés et notamment portées par la foi chrétienne, qui visent à améliorer le vivre ensemble."
 title = "Un esprit et des valeurs inspirées de la foi chrétienne, qu'est-ce que cela signifie?"
 
 +++
