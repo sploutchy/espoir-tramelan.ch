@@ -1,5 +1,5 @@
 +++
-title = "inscription"
+title = "Accusé de réception"
 
 +++
 # Merci!
