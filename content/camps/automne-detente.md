@@ -4,7 +4,7 @@ age: de 8 à 15 ans
 date: 2022-03-04T10:46:21.000+00:00
 open: false
 full: false
-form: https://tally.so/r/woZEV3?camp=Automne%20Détente
+form: https://tally.so/r/nW2NGP?camp=Automne%20Détente
 enddate: 14 octobre 2023
 location: au Chalet le Refuge à Tramelan
 price: 230.- CHF
