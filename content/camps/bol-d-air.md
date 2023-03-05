@@ -11,7 +11,7 @@ teaser: 30 ans d'existence et toujours aussi fou. Rejoins-nous pour une semaine 
   folie.
 open: false
 full: false
-form: https://tally.so/r/woZEV3?camp=Bol%20d'air
+form: https://tally.so/r/nW2NGP?camp=Bol%20d'air
 ensavoirplus: Découvrir notre camp
 banner:
 - images/boldair_0.jpg
