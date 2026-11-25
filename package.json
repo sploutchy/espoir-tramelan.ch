@@ -19,6 +19,9 @@
     "@types/node": "^25.9.1"
   },
   "overrides": {
-    "postcss-selector-parser": "^6.1.6"
+    "postcss-selector-parser": "^6.1.6",
+    "katex": "^0.18.2",
+    "altair-static": "^8.5.11",
+    "altair-express-middleware": "^8.5.11"
   }
 }
